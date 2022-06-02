@@ -8,7 +8,9 @@ After donwloading Mysql Workbench, follow the below steps:
 2) Add the name of Database movie_db
 3) Run the below commands:
 4) use movie_db;
-5) create table movie
+5) Create the table using following query:
+```
+ create table movie
   (
       ID              INTEGER      not null primary key auto_increment,
       MOVIE_NAME      VARCHAR(500) not null unique,
